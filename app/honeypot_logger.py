@@ -6,7 +6,7 @@ rather than a normal login form: a real bank blocks you after 3 bad
 attempts, this one just watches and records, so Member 3's simulator
 can generate a full brute-force dataset for Member 4's model.
 """
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from flask import current_app, request
 
@@ -69,3 +69,44 @@ def log_login_attempt(username: str, password: str, status: str, session_id: str
     db.session.add(attempt)
     db.session.commit()
     return attempt
+
+
+def get_recent_attempt_count(ip_address: str, minutes: int = 5) -> int:
+    """How many login attempts this IP has made in the last N minutes.
+
+    Not used to block anything — this honeypot never locks attackers
+    out — but Member 5's threat report and Member 6's live dashboard
+    both want a quick "is this IP currently hammering the form"
+    number, and Member 4's feature engineering wants it as a raw
+    input feature too. Centralizing it here means everyone queries
+    it the same way instead of re-deriving it from raw timestamps.
+    """
+    cutoff = datetime.utcnow() - timedelta(minutes=minutes)
+    return LoginAttempt.query.filter(
+        LoginAttempt.ip_address == ip_address,
+        LoginAttempt.timestamp >= cutoff,
+    ).count()
+
+
+def get_top_attacking_ips(limit: int = 10, status: str = "failed"):
+    """IPs ranked by failed-attempt volume, most active first.
+
+    Returns a list of (ip_address, attempt_count) tuples. This is a
+    convenience wrapper — Member 5's full threat-intel pass does the
+    deeper GeoIP/country enrichment, but this gives Member 6's
+    dashboard something to render on day one without waiting on
+    that module.
+    """
+    from sqlalchemy import func
+
+    query = (
+        db.session.query(
+            LoginAttempt.ip_address,
+            func.count(LoginAttempt.id).label("attempts"),
+        )
+        .filter(LoginAttempt.login_status == status)
+        .group_by(LoginAttempt.ip_address)
+        .order_by(func.count(LoginAttempt.id).desc())
+        .limit(limit)
+    )
+    return query.all()

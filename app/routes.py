@@ -3,11 +3,12 @@ session-gated dummy customer area (dashboard/transactions/profile).
 """
 import uuid
 
-from flask import Blueprint, current_app, flash, redirect, render_template, request, session, url_for
+from flask import Blueprint, current_app, flash, jsonify, redirect, render_template, request, session, url_for
 from werkzeug.security import check_password_hash
 
-from .honeypot_logger import log_login_attempt
-from .models import User
+from .extensions import db
+from .honeypot_logger import get_recent_attempt_count, get_top_attacking_ips, log_login_attempt
+from .models import LoginAttempt, User
 
 bp = Blueprint("main", __name__)
 
@@ -92,3 +93,102 @@ def profile():
 def logout():
     session.clear()
     return redirect(url_for("main.index"))
+
+
+# ---------------------------------------------------------------------------
+# Read-only JSON API — the handoff surface for Members 3–6.
+#
+# Member 3 doesn't need these (it just POSTs to /login directly), but
+# Members 4/5/6 all want to pull login_attempts data without writing
+# raw SQLite queries against a DB file path they'd have to guess.
+# No auth on these routes: this is a local research project, not a
+# system with real users to protect.
+# ---------------------------------------------------------------------------
+
+@bp.route("/api/login-attempts")
+def api_login_attempts():
+    """Paginated raw log rows, newest first.
+
+    Query params:
+      limit   int, default 100, max 1000
+      offset  int, default 0
+      status  optional filter: "success" or "failed"
+      ip      optional filter: exact IP match
+    """
+    limit = min(request.args.get("limit", 100, type=int), 1000)
+    offset = request.args.get("offset", 0, type=int)
+    status = request.args.get("status")
+    ip = request.args.get("ip")
+
+    query = LoginAttempt.query
+    if status in ("success", "failed"):
+        query = query.filter_by(login_status=status)
+    if ip:
+        query = query.filter_by(ip_address=ip)
+
+    total = query.count()
+    rows = (
+        query.order_by(LoginAttempt.timestamp.desc())
+        .offset(offset)
+        .limit(limit)
+        .all()
+    )
+
+    return jsonify({
+        "total": total,
+        "limit": limit,
+        "offset": offset,
+        "attempts": [
+            {
+                "id": r.id,
+                "username_attempted": r.username_attempted,
+                "password_attempted": r.password_attempted,
+                "ip_address": r.ip_address,
+                "timestamp": r.timestamp.isoformat() if r.timestamp else None,
+                "browser": r.browser,
+                "user_agent": r.user_agent,
+                "session_id": r.session_id,
+                "login_status": r.login_status,
+                "country": r.country,
+            }
+            for r in rows
+        ],
+    })
+
+
+@bp.route("/api/stats")
+def api_stats():
+    """Quick-glance counters for a live dashboard (Member 6) without
+    it needing to compute aggregates itself on every refresh."""
+    total = LoginAttempt.query.count()
+    failed = LoginAttempt.query.filter_by(login_status="failed").count()
+    success = LoginAttempt.query.filter_by(login_status="success").count()
+    unique_ips = db.session.query(LoginAttempt.ip_address).distinct().count()
+    top_ips = get_top_attacking_ips(limit=10)
+
+    return jsonify({
+        "total_attempts": total,
+        "failed_attempts": failed,
+        "successful_attempts": success,
+        "unique_ips": unique_ips,
+        "top_attacking_ips": [
+            {"ip_address": ip, "failed_attempts": count} for ip, count in top_ips
+        ],
+    })
+
+
+@bp.route("/api/ip-check/<ip_address>")
+def api_ip_check(ip_address):
+    """How active has this specific IP been recently — the kind of
+    lookup Member 5's threat report or a live dashboard would fire
+    on click-through from a table row."""
+    recent_5min = get_recent_attempt_count(ip_address, minutes=5)
+    recent_1hr = get_recent_attempt_count(ip_address, minutes=60)
+    total = LoginAttempt.query.filter_by(ip_address=ip_address).count()
+
+    return jsonify({
+        "ip_address": ip_address,
+        "total_attempts": total,
+        "attempts_last_5min": recent_5min,
+        "attempts_last_1hr": recent_1hr,
+    })
