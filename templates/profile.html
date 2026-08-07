@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Profile — SecureTrust Bank{% endblock %}
+{% block content %}
+<h3 class="mb-4">Your Profile</h3>
+<div class="card" style="max-width: 480px;">
+  <div class="card-body">
+    <dl class="row mb-0">
+      <dt class="col-sm-4">Full Name</dt><dd class="col-sm-8">{{ user.full_name }}</dd>
+      <dt class="col-sm-4">Username</dt><dd class="col-sm-8">{{ user.username }}</dd>
+      <dt class="col-sm-4">Account No.</dt><dd class="col-sm-8">{{ user.account_number }}</dd>
+      <dt class="col-sm-4">Member Since</dt><dd class="col-sm-8">{{ user.created_at.strftime('%d %b %Y') if user.created_at else '-' }}</dd>
+    </dl>
+  </div>
+</div>
+{% endblock %}

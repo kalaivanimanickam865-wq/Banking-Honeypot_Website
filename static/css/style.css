@@ -1,0 +1,20 @@
+.bank-navbar {
+  background: linear-gradient(90deg, #0b3d91, #1a5fb4);
+}
+
+.bank-hero {
+  background: linear-gradient(120deg, #eef3fb, #dce8fa);
+}
+
+.bank-balance-card {
+  background: linear-gradient(135deg, #0b3d91, #1a5fb4);
+  color: #fff;
+}
+
+.bank-balance-card .text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+body {
+  background-color: #f7f9fc;
+}
