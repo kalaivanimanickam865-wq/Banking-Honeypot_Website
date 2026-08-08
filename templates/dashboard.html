@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — SecureTrust Bank{% endblock %}
+{% block content %}
+<h3 class="mb-4">Welcome back, {{ user.full_name or user.username }}</h3>
+
+<div class="row g-4">
+  <div class="col-md-6">
+    <div class="card bank-balance-card">
+      <div class="card-body">
+        <h6 class="text-uppercase text-muted">Account Number</h6>
+        <p class="fs-5">{{ user.account_number }}</p>
+        <h6 class="text-uppercase text-muted">Available Balance</h6>
+        <p class="display-6 fw-bold">₹{{ "%.2f"|format(user.balance) }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h6 class="text-uppercase text-muted">Quick Actions</h6>
+        <div class="d-grid gap-2 mt-3">
+          <a class="btn btn-outline-primary" href="{{ url_for('main.transactions') }}">View Transaction History</a>
+          <a class="btn btn-outline-primary" href="{{ url_for('main.profile') }}">Manage Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}SecureTrust Bank — Home{% endblock %}
+{% block content %}
+<div class="p-5 mb-4 bank-hero rounded-3">
+  <h1 class="display-6 fw-bold">Banking made simple, secure, and always available.</h1>
+  <p class="col-md-8 fs-5">Manage your accounts, transfer funds, and pay bills — anytime, anywhere.</p>
+  <a class="btn btn-primary btn-lg" href="{{ url_for('main.login') }}">Login to Online Banking</a>
+</div>
+
+<div class="row g-4">
+  <div class="col-md-4">
+    <div class="card h-100"><div class="card-body">
+      <h5 class="card-title">Savings Accounts</h5>
+      <p class="card-text">Earn competitive interest with zero hidden fees.</p>
+    </div></div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100"><div class="card-body">
+      <h5 class="card-title">Fast Transfers</h5>
+      <p class="card-text">Send money instantly to any account, 24/7.</p>
+    </div></div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100"><div class="card-body">
+      <h5 class="card-title">Bank-Grade Security</h5>
+      <p class="card-text">Your money is protected by industry-leading safeguards.</p>
+    </div></div>
+  </div>
+</div>
+{% endblock %}

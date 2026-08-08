@@ -1,0 +1,1091 @@
+{
+  "generated_at": "2026-08-08T14:14:23.901533",
+  "statistics": {
+    "normal_failed": 20,
+    "normal_attempts": 20,
+    "brute_force_failed": 100,
+    "brute_force_attempts": 100
+  },
+  "traffic_log": [
+    {
+      "timestamp": "2026-08-08T14:07:53.624859",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:08:01.843871",
+      "username": "user1",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:08:09.120542",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:08:17.860812",
+      "username": "user1",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:08:26.518302",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:08:33.444721",
+      "username": "john_doe",
+      "password": "joh******",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:08:40.830446",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:08:50.099800",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:08:55.757032",
+      "username": "john_doe",
+      "password": "joh******",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:05.735706",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:14.763329",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:20.008639",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:27.041460",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:34.912105",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:39.546101",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:46.903019",
+      "username": "user1",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:53.543279",
+      "username": "user1",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:09:58.534528",
+      "username": "user1",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:03.696482",
+      "username": "test_user",
+      "password": "tes****",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:11.623106",
+      "username": "john_doe",
+      "password": "joh******",
+      "status_code": 401,
+      "is_brute_force": false,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:23.218028",
+      "username": "admin",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:25.832278",
+      "username": "admin",
+      "password": "roo*",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:28.392999",
+      "username": "admin",
+      "password": "mas***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:30.779533",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:33.284350",
+      "username": "admin",
+      "password": "let****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:35.872184",
+      "username": "admin",
+      "password": "123***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:38.393145",
+      "username": "admin",
+      "password": "qwe***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:40.981656",
+      "username": "admin",
+      "password": "dra***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:43.467237",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:45.866989",
+      "username": "admin",
+      "password": "wel****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:48.419920",
+      "username": "admin",
+      "password": "roo*",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:50.771474",
+      "username": "admin",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:53.299869",
+      "username": "admin",
+      "password": "123*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:55.831896",
+      "username": "admin",
+      "password": "let****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:10:58.084442",
+      "username": "admin",
+      "password": "adm**",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:00.451499",
+      "username": "admin",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:02.786463",
+      "username": "admin",
+      "password": "let****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:05.106069",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:07.282305",
+      "username": "admin",
+      "password": "roo*",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:09.825673",
+      "username": "admin",
+      "password": "qwe***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:12.104515",
+      "username": "admin",
+      "password": "sun*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:14.682092",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:17.247979",
+      "username": "admin",
+      "password": "wel****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:19.801446",
+      "username": "admin",
+      "password": "roo*",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:22.344907",
+      "username": "admin",
+      "password": "123***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:24.700914",
+      "username": "admin",
+      "password": "wel****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:26.945637",
+      "username": "admin",
+      "password": "mon***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:29.441272",
+      "username": "admin",
+      "password": "123*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:31.984648",
+      "username": "admin",
+      "password": "wel****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:34.310591",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:36.845160",
+      "username": "admin",
+      "password": "adm**",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:39.207526",
+      "username": "admin",
+      "password": "let****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:41.759458",
+      "username": "admin",
+      "password": "dra***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:44.205259",
+      "username": "admin",
+      "password": "sun*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:46.457460",
+      "username": "admin",
+      "password": "mas***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:48.824467",
+      "username": "admin",
+      "password": "pas*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:51.230643",
+      "username": "admin",
+      "password": "123***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:53.634757",
+      "username": "admin",
+      "password": "mon***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:56.061722",
+      "username": "admin",
+      "password": "mas***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:11:58.645305",
+      "username": "admin",
+      "password": "123*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:00.985439",
+      "username": "admin",
+      "password": "let****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:03.564807",
+      "username": "admin",
+      "password": "dra***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:05.805443",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:08.228764",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:10.613496",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:12.819209",
+      "username": "admin",
+      "password": "dra***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:15.415702",
+      "username": "admin",
+      "password": "mas***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:17.991243",
+      "username": "admin",
+      "password": "roo*",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:20.503337",
+      "username": "admin",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:22.857290",
+      "username": "admin",
+      "password": "123***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:25.129621",
+      "username": "admin",
+      "password": "pri*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:27.531633",
+      "username": "admin",
+      "password": "mas***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:30.026512",
+      "username": "admin",
+      "password": "mon***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:32.347376",
+      "username": "admin",
+      "password": "pas*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:34.919043",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:37.221843",
+      "username": "admin",
+      "password": "let****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:39.722524",
+      "username": "admin",
+      "password": "roo*",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:42.096380",
+      "username": "admin",
+      "password": "123***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:44.579029",
+      "username": "admin",
+      "password": "sun*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:46.828515",
+      "username": "admin",
+      "password": "pas*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:49.085228",
+      "username": "admin",
+      "password": "wel****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:51.687872",
+      "username": "admin",
+      "password": "dra***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:54.260407",
+      "username": "admin",
+      "password": "dra***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:56.537058",
+      "username": "admin",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:12:58.974412",
+      "username": "admin",
+      "password": "sun*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:01.405572",
+      "username": "admin",
+      "password": "sun*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:03.991429",
+      "username": "admin",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:06.228299",
+      "username": "admin",
+      "password": "sun*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:08.672797",
+      "username": "admin",
+      "password": "123*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:10.841865",
+      "username": "admin",
+      "password": "pas*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:13.400956",
+      "username": "admin",
+      "password": "dra***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:15.835758",
+      "username": "admin",
+      "password": "adm**",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:18.088056",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:20.640951",
+      "username": "admin",
+      "password": "pas*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:23.198712",
+      "username": "admin",
+      "password": "roo*",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:25.664979",
+      "username": "admin",
+      "password": "123***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:28.244352",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:30.772620",
+      "username": "admin",
+      "password": "mon***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:32.985376",
+      "username": "admin",
+      "password": "sun*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:35.484563",
+      "username": "admin",
+      "password": "pri*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:38.036912",
+      "username": "admin",
+      "password": "123***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:40.380428",
+      "username": "admin",
+      "password": "mas***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:42.942769",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:45.458228",
+      "username": "admin",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:47.990266",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:50.503249",
+      "username": "admin",
+      "password": "wel****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:52.690588",
+      "username": "admin",
+      "password": "pri*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:54.946826",
+      "username": "admin",
+      "password": "mon***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:57.392800",
+      "username": "admin",
+      "password": "adm*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:13:59.761393",
+      "username": "admin",
+      "password": "123***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:02.181852",
+      "username": "admin",
+      "password": "mas***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:04.691447",
+      "username": "admin",
+      "password": "adm**",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:06.922051",
+      "username": "admin",
+      "password": "pas********",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:09.245120",
+      "username": "admin",
+      "password": "adm**",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:11.745185",
+      "username": "admin",
+      "password": "let****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:14.273943",
+      "username": "admin",
+      "password": "sun*****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:16.760691",
+      "username": "admin",
+      "password": "roo*",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:19.062388",
+      "username": "admin",
+      "password": "let****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:21.402075",
+      "username": "admin",
+      "password": "qwe***",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    },
+    {
+      "timestamp": "2026-08-08T14:14:23.613406",
+      "username": "admin",
+      "password": "wel****",
+      "status_code": 401,
+      "is_brute_force": true,
+      "success": false,
+      "error": null
+    }
+  ]
+}

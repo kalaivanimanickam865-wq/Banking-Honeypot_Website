@@ -1,0 +1,128 @@
+2026-08-08 14:07:51,486 - INFO - Traffic Generator initialized for: http://localhost:5000
+2026-08-08 14:07:51,486 - INFO - Starting mixed traffic generation
+2026-08-08 14:07:51,486 - INFO - Starting normal login traffic generation: 20 attempts
+2026-08-08 14:07:53,624 - INFO - Normal login 1/20: test_user - 401
+2026-08-08 14:08:01,843 - INFO - Normal login 2/20: user1 - 401
+2026-08-08 14:08:09,121 - INFO - Normal login 3/20: admin - 401
+2026-08-08 14:08:17,860 - INFO - Normal login 4/20: user1 - 401
+2026-08-08 14:08:26,518 - INFO - Normal login 5/20: test_user - 401
+2026-08-08 14:08:33,444 - INFO - Normal login 6/20: john_doe - 401
+2026-08-08 14:08:40,830 - INFO - Normal login 7/20: test_user - 401
+2026-08-08 14:08:50,099 - INFO - Normal login 8/20: test_user - 401
+2026-08-08 14:08:55,757 - INFO - Normal login 9/20: john_doe - 401
+2026-08-08 14:09:05,735 - INFO - Normal login 10/20: admin - 401
+2026-08-08 14:09:14,763 - INFO - Normal login 11/20: test_user - 401
+2026-08-08 14:09:20,008 - INFO - Normal login 12/20: test_user - 401
+2026-08-08 14:09:27,041 - INFO - Normal login 13/20: test_user - 401
+2026-08-08 14:09:34,912 - INFO - Normal login 14/20: test_user - 401
+2026-08-08 14:09:39,546 - INFO - Normal login 15/20: admin - 401
+2026-08-08 14:09:46,903 - INFO - Normal login 16/20: user1 - 401
+2026-08-08 14:09:53,543 - INFO - Normal login 17/20: user1 - 401
+2026-08-08 14:09:58,534 - INFO - Normal login 18/20: user1 - 401
+2026-08-08 14:10:03,696 - INFO - Normal login 19/20: test_user - 401
+2026-08-08 14:10:11,623 - INFO - Normal login 20/20: john_doe - 401
+2026-08-08 14:10:16,096 - INFO - Normal login traffic complete: 20 attempts sent
+2026-08-08 14:10:21,097 - WARNING - Starting brute force attack simulation: 100 attempts
+2026-08-08 14:10:23,218 - WARNING - Brute force 1/100: admin - Status: 401
+2026-08-08 14:10:25,832 - WARNING - Brute force 2/100: admin - Status: 401
+2026-08-08 14:10:28,392 - WARNING - Brute force 3/100: admin - Status: 401
+2026-08-08 14:10:30,779 - WARNING - Brute force 4/100: admin - Status: 401
+2026-08-08 14:10:33,284 - WARNING - Brute force 5/100: admin - Status: 401
+2026-08-08 14:10:35,872 - WARNING - Brute force 6/100: admin - Status: 401
+2026-08-08 14:10:38,393 - WARNING - Brute force 7/100: admin - Status: 401
+2026-08-08 14:10:40,981 - WARNING - Brute force 8/100: admin - Status: 401
+2026-08-08 14:10:43,468 - WARNING - Brute force 9/100: admin - Status: 401
+2026-08-08 14:10:45,866 - WARNING - Brute force 10/100: admin - Status: 401
+2026-08-08 14:10:48,419 - WARNING - Brute force 11/100: admin - Status: 401
+2026-08-08 14:10:50,771 - WARNING - Brute force 12/100: admin - Status: 401
+2026-08-08 14:10:53,299 - WARNING - Brute force 13/100: admin - Status: 401
+2026-08-08 14:10:55,831 - WARNING - Brute force 14/100: admin - Status: 401
+2026-08-08 14:10:58,084 - WARNING - Brute force 15/100: admin - Status: 401
+2026-08-08 14:11:00,451 - WARNING - Brute force 16/100: admin - Status: 401
+2026-08-08 14:11:02,786 - WARNING - Brute force 17/100: admin - Status: 401
+2026-08-08 14:11:05,106 - WARNING - Brute force 18/100: admin - Status: 401
+2026-08-08 14:11:07,282 - WARNING - Brute force 19/100: admin - Status: 401
+2026-08-08 14:11:09,825 - WARNING - Brute force 20/100: admin - Status: 401
+2026-08-08 14:11:12,104 - WARNING - Brute force 21/100: admin - Status: 401
+2026-08-08 14:11:14,682 - WARNING - Brute force 22/100: admin - Status: 401
+2026-08-08 14:11:17,248 - WARNING - Brute force 23/100: admin - Status: 401
+2026-08-08 14:11:19,801 - WARNING - Brute force 24/100: admin - Status: 401
+2026-08-08 14:11:22,344 - WARNING - Brute force 25/100: admin - Status: 401
+2026-08-08 14:11:24,700 - WARNING - Brute force 26/100: admin - Status: 401
+2026-08-08 14:11:26,945 - WARNING - Brute force 27/100: admin - Status: 401
+2026-08-08 14:11:29,441 - WARNING - Brute force 28/100: admin - Status: 401
+2026-08-08 14:11:31,984 - WARNING - Brute force 29/100: admin - Status: 401
+2026-08-08 14:11:34,310 - WARNING - Brute force 30/100: admin - Status: 401
+2026-08-08 14:11:36,845 - WARNING - Brute force 31/100: admin - Status: 401
+2026-08-08 14:11:39,207 - WARNING - Brute force 32/100: admin - Status: 401
+2026-08-08 14:11:41,759 - WARNING - Brute force 33/100: admin - Status: 401
+2026-08-08 14:11:44,205 - WARNING - Brute force 34/100: admin - Status: 401
+2026-08-08 14:11:46,457 - WARNING - Brute force 35/100: admin - Status: 401
+2026-08-08 14:11:48,824 - WARNING - Brute force 36/100: admin - Status: 401
+2026-08-08 14:11:51,230 - WARNING - Brute force 37/100: admin - Status: 401
+2026-08-08 14:11:53,634 - WARNING - Brute force 38/100: admin - Status: 401
+2026-08-08 14:11:56,061 - WARNING - Brute force 39/100: admin - Status: 401
+2026-08-08 14:11:58,646 - WARNING - Brute force 40/100: admin - Status: 401
+2026-08-08 14:12:00,985 - WARNING - Brute force 41/100: admin - Status: 401
+2026-08-08 14:12:03,564 - WARNING - Brute force 42/100: admin - Status: 401
+2026-08-08 14:12:05,805 - WARNING - Brute force 43/100: admin - Status: 401
+2026-08-08 14:12:08,228 - WARNING - Brute force 44/100: admin - Status: 401
+2026-08-08 14:12:10,613 - WARNING - Brute force 45/100: admin - Status: 401
+2026-08-08 14:12:12,819 - WARNING - Brute force 46/100: admin - Status: 401
+2026-08-08 14:12:15,415 - WARNING - Brute force 47/100: admin - Status: 401
+2026-08-08 14:12:17,991 - WARNING - Brute force 48/100: admin - Status: 401
+2026-08-08 14:12:20,503 - WARNING - Brute force 49/100: admin - Status: 401
+2026-08-08 14:12:22,857 - WARNING - Brute force 50/100: admin - Status: 401
+2026-08-08 14:12:25,130 - WARNING - Brute force 51/100: admin - Status: 401
+2026-08-08 14:12:27,531 - WARNING - Brute force 52/100: admin - Status: 401
+2026-08-08 14:12:30,026 - WARNING - Brute force 53/100: admin - Status: 401
+2026-08-08 14:12:32,347 - WARNING - Brute force 54/100: admin - Status: 401
+2026-08-08 14:12:34,919 - WARNING - Brute force 55/100: admin - Status: 401
+2026-08-08 14:12:37,221 - WARNING - Brute force 56/100: admin - Status: 401
+2026-08-08 14:12:39,722 - WARNING - Brute force 57/100: admin - Status: 401
+2026-08-08 14:12:42,096 - WARNING - Brute force 58/100: admin - Status: 401
+2026-08-08 14:12:44,579 - WARNING - Brute force 59/100: admin - Status: 401
+2026-08-08 14:12:46,828 - WARNING - Brute force 60/100: admin - Status: 401
+2026-08-08 14:12:49,085 - WARNING - Brute force 61/100: admin - Status: 401
+2026-08-08 14:12:51,687 - WARNING - Brute force 62/100: admin - Status: 401
+2026-08-08 14:12:54,260 - WARNING - Brute force 63/100: admin - Status: 401
+2026-08-08 14:12:56,537 - WARNING - Brute force 64/100: admin - Status: 401
+2026-08-08 14:12:58,974 - WARNING - Brute force 65/100: admin - Status: 401
+2026-08-08 14:13:01,405 - WARNING - Brute force 66/100: admin - Status: 401
+2026-08-08 14:13:03,991 - WARNING - Brute force 67/100: admin - Status: 401
+2026-08-08 14:13:06,228 - WARNING - Brute force 68/100: admin - Status: 401
+2026-08-08 14:13:08,673 - WARNING - Brute force 69/100: admin - Status: 401
+2026-08-08 14:13:10,841 - WARNING - Brute force 70/100: admin - Status: 401
+2026-08-08 14:13:13,400 - WARNING - Brute force 71/100: admin - Status: 401
+2026-08-08 14:13:15,835 - WARNING - Brute force 72/100: admin - Status: 401
+2026-08-08 14:13:18,088 - WARNING - Brute force 73/100: admin - Status: 401
+2026-08-08 14:13:20,640 - WARNING - Brute force 74/100: admin - Status: 401
+2026-08-08 14:13:23,198 - WARNING - Brute force 75/100: admin - Status: 401
+2026-08-08 14:13:25,664 - WARNING - Brute force 76/100: admin - Status: 401
+2026-08-08 14:13:28,244 - WARNING - Brute force 77/100: admin - Status: 401
+2026-08-08 14:13:30,772 - WARNING - Brute force 78/100: admin - Status: 401
+2026-08-08 14:13:32,985 - WARNING - Brute force 79/100: admin - Status: 401
+2026-08-08 14:13:35,484 - WARNING - Brute force 80/100: admin - Status: 401
+2026-08-08 14:13:38,036 - WARNING - Brute force 81/100: admin - Status: 401
+2026-08-08 14:13:40,381 - WARNING - Brute force 82/100: admin - Status: 401
+2026-08-08 14:13:42,942 - WARNING - Brute force 83/100: admin - Status: 401
+2026-08-08 14:13:45,458 - WARNING - Brute force 84/100: admin - Status: 401
+2026-08-08 14:13:47,990 - WARNING - Brute force 85/100: admin - Status: 401
+2026-08-08 14:13:50,503 - WARNING - Brute force 86/100: admin - Status: 401
+2026-08-08 14:13:52,690 - WARNING - Brute force 87/100: admin - Status: 401
+2026-08-08 14:13:54,946 - WARNING - Brute force 88/100: admin - Status: 401
+2026-08-08 14:13:57,392 - WARNING - Brute force 89/100: admin - Status: 401
+2026-08-08 14:13:59,761 - WARNING - Brute force 90/100: admin - Status: 401
+2026-08-08 14:14:02,181 - WARNING - Brute force 91/100: admin - Status: 401
+2026-08-08 14:14:04,691 - WARNING - Brute force 92/100: admin - Status: 401
+2026-08-08 14:14:06,922 - WARNING - Brute force 93/100: admin - Status: 401
+2026-08-08 14:14:09,245 - WARNING - Brute force 94/100: admin - Status: 401
+2026-08-08 14:14:11,746 - WARNING - Brute force 95/100: admin - Status: 401
+2026-08-08 14:14:14,273 - WARNING - Brute force 96/100: admin - Status: 401
+2026-08-08 14:14:16,760 - WARNING - Brute force 97/100: admin - Status: 401
+2026-08-08 14:14:19,062 - WARNING - Brute force 98/100: admin - Status: 401
+2026-08-08 14:14:21,402 - WARNING - Brute force 99/100: admin - Status: 401
+2026-08-08 14:14:23,613 - WARNING - Brute force 100/100: admin - Status: 401
+2026-08-08 14:14:23,900 - WARNING - Brute force attack simulation complete: 100 attempts sent
+2026-08-08 14:14:23,900 - INFO - Mixed traffic generation complete
+2026-08-08 14:14:23,906 - INFO - Traffic analysis saved to: traffic_analysis.json
