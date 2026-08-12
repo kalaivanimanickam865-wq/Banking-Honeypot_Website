@@ -1,0 +1,633 @@
+{
+  "meta": {
+    "tool": "Member 5 - Threat Intelligence",
+    "report_version": "1.0",
+    "generated_at": "2026-08-12T19:17:29",
+    "source": "csv",
+    "source_path": "C:\\SATHYA\\CHAINAIM3003\\mcp-servers\\Banking-Honeypot_Website\\Banking-Honeypot_Website\\threat_intelligence\\output\\login_attempts_enriched.csv",
+    "records_analysed": 1990,
+    "geo_note": "All IPs are private/local, so country data is not real geolocation. Re-run geoip_enrich.py with --demo-geo for synthetic demo countries, or feed real public-IP data."
+  },
+  "summary": {
+    "total_attempts": 1990,
+    "failed_attempts": 1224,
+    "successful_attempts": 766,
+    "failure_rate_pct": 61.51,
+    "unique_ips": 283,
+    "unique_usernames_targeted": 149,
+    "first_attempt": "2025-01-01T09:22:38",
+    "last_attempt": "2025-01-04T08:54:34"
+  },
+  "top_attacker_ips": [
+    {
+      "ip_address": "10.0.74.187",
+      "country": "Private/Local Network",
+      "total_attempts": 39,
+      "failed_attempts": 38,
+      "successful_attempts": 1
+    },
+    {
+      "ip_address": "10.0.74.15",
+      "country": "Private/Local Network",
+      "total_attempts": 39,
+      "failed_attempts": 37,
+      "successful_attempts": 2
+    },
+    {
+      "ip_address": "10.0.16.76",
+      "country": "Private/Local Network",
+      "total_attempts": 39,
+      "failed_attempts": 39,
+      "successful_attempts": 0
+    },
+    {
+      "ip_address": "10.0.40.250",
+      "country": "Private/Local Network",
+      "total_attempts": 39,
+      "failed_attempts": 39,
+      "successful_attempts": 0
+    },
+    {
+      "ip_address": "10.0.251.47",
+      "country": "Private/Local Network",
+      "total_attempts": 39,
+      "failed_attempts": 39,
+      "successful_attempts": 0
+    },
+    {
+      "ip_address": "10.0.168.214",
+      "country": "Private/Local Network",
+      "total_attempts": 38,
+      "failed_attempts": 38,
+      "successful_attempts": 0
+    },
+    {
+      "ip_address": "10.0.187.90",
+      "country": "Private/Local Network",
+      "total_attempts": 38,
+      "failed_attempts": 37,
+      "successful_attempts": 1
+    },
+    {
+      "ip_address": "10.0.248.152",
+      "country": "Private/Local Network",
+      "total_attempts": 37,
+      "failed_attempts": 35,
+      "successful_attempts": 2
+    },
+    {
+      "ip_address": "10.0.119.98",
+      "country": "Private/Local Network",
+      "total_attempts": 37,
+      "failed_attempts": 35,
+      "successful_attempts": 2
+    },
+    {
+      "ip_address": "10.0.227.35",
+      "country": "Private/Local Network",
+      "total_attempts": 37,
+      "failed_attempts": 34,
+      "successful_attempts": 3
+    }
+  ],
+  "countries": [
+    {
+      "country": "Private/Local Network",
+      "attempts": 1990,
+      "failed_attempts": 1224
+    }
+  ],
+  "timeline": [
+    {
+      "bucket": "2025-01-01 09:00",
+      "attempts": 8,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-01 10:00",
+      "attempts": 13,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-01 11:00",
+      "attempts": 49,
+      "failed_attempts": 39
+    },
+    {
+      "bucket": "2025-01-01 12:00",
+      "attempts": 15,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-01 13:00",
+      "attempts": 46,
+      "failed_attempts": 36
+    },
+    {
+      "bucket": "2025-01-01 14:00",
+      "attempts": 10,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-01 15:00",
+      "attempts": 31,
+      "failed_attempts": 20
+    },
+    {
+      "bucket": "2025-01-01 16:00",
+      "attempts": 12,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-01 17:00",
+      "attempts": 8,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-01 18:00",
+      "attempts": 15,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-01 19:00",
+      "attempts": 48,
+      "failed_attempts": 36
+    },
+    {
+      "bucket": "2025-01-01 20:00",
+      "attempts": 37,
+      "failed_attempts": 31
+    },
+    {
+      "bucket": "2025-01-01 21:00",
+      "attempts": 12,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-01 22:00",
+      "attempts": 9,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-01 23:00",
+      "attempts": 10,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-02 00:00",
+      "attempts": 8,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-02 01:00",
+      "attempts": 11,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-02 02:00",
+      "attempts": 16,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-02 03:00",
+      "attempts": 6,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-02 04:00",
+      "attempts": 57,
+      "failed_attempts": 39
+    },
+    {
+      "bucket": "2025-01-02 05:00",
+      "attempts": 7,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-02 06:00",
+      "attempts": 50,
+      "failed_attempts": 30
+    },
+    {
+      "bucket": "2025-01-02 07:00",
+      "attempts": 11,
+      "failed_attempts": 3
+    },
+    {
+      "bucket": "2025-01-02 08:00",
+      "attempts": 38,
+      "failed_attempts": 24
+    },
+    {
+      "bucket": "2025-01-02 09:00",
+      "attempts": 14,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-02 10:00",
+      "attempts": 8,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-02 11:00",
+      "attempts": 16,
+      "failed_attempts": 3
+    },
+    {
+      "bucket": "2025-01-02 12:00",
+      "attempts": 72,
+      "failed_attempts": 58
+    },
+    {
+      "bucket": "2025-01-02 13:00",
+      "attempts": 6,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-02 14:00",
+      "attempts": 8,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-02 15:00",
+      "attempts": 8,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-02 16:00",
+      "attempts": 46,
+      "failed_attempts": 39
+    },
+    {
+      "bucket": "2025-01-02 17:00",
+      "attempts": 42,
+      "failed_attempts": 25
+    },
+    {
+      "bucket": "2025-01-02 18:00",
+      "attempts": 12,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-02 19:00",
+      "attempts": 10,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-02 20:00",
+      "attempts": 33,
+      "failed_attempts": 21
+    },
+    {
+      "bucket": "2025-01-02 21:00",
+      "attempts": 16,
+      "failed_attempts": 3
+    },
+    {
+      "bucket": "2025-01-02 22:00",
+      "attempts": 66,
+      "failed_attempts": 53
+    },
+    {
+      "bucket": "2025-01-02 23:00",
+      "attempts": 30,
+      "failed_attempts": 20
+    },
+    {
+      "bucket": "2025-01-03 00:00",
+      "attempts": 12,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-03 01:00",
+      "attempts": 15,
+      "failed_attempts": 3
+    },
+    {
+      "bucket": "2025-01-03 02:00",
+      "attempts": 10,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-03 03:00",
+      "attempts": 50,
+      "failed_attempts": 39
+    },
+    {
+      "bucket": "2025-01-03 04:00",
+      "attempts": 9,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-03 05:00",
+      "attempts": 31,
+      "failed_attempts": 20
+    },
+    {
+      "bucket": "2025-01-03 06:00",
+      "attempts": 7,
+      "failed_attempts": 3
+    },
+    {
+      "bucket": "2025-01-03 07:00",
+      "attempts": 43,
+      "failed_attempts": 32
+    },
+    {
+      "bucket": "2025-01-03 08:00",
+      "attempts": 16,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-03 09:00",
+      "attempts": 73,
+      "failed_attempts": 59
+    },
+    {
+      "bucket": "2025-01-03 10:00",
+      "attempts": 75,
+      "failed_attempts": 59
+    },
+    {
+      "bucket": "2025-01-03 11:00",
+      "attempts": 45,
+      "failed_attempts": 32
+    },
+    {
+      "bucket": "2025-01-03 12:00",
+      "attempts": 11,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-03 13:00",
+      "attempts": 95,
+      "failed_attempts": 84
+    },
+    {
+      "bucket": "2025-01-03 14:00",
+      "attempts": 36,
+      "failed_attempts": 28
+    },
+    {
+      "bucket": "2025-01-03 15:00",
+      "attempts": 8,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-03 16:00",
+      "attempts": 25,
+      "failed_attempts": 17
+    },
+    {
+      "bucket": "2025-01-03 17:00",
+      "attempts": 65,
+      "failed_attempts": 51
+    },
+    {
+      "bucket": "2025-01-03 18:00",
+      "attempts": 9,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-03 19:00",
+      "attempts": 52,
+      "failed_attempts": 39
+    },
+    {
+      "bucket": "2025-01-03 20:00",
+      "attempts": 9,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-03 21:00",
+      "attempts": 9,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-03 22:00",
+      "attempts": 10,
+      "failed_attempts": 1
+    },
+    {
+      "bucket": "2025-01-03 23:00",
+      "attempts": 76,
+      "failed_attempts": 56
+    },
+    {
+      "bucket": "2025-01-04 00:00",
+      "attempts": 42,
+      "failed_attempts": 28
+    },
+    {
+      "bucket": "2025-01-04 01:00",
+      "attempts": 11,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-04 02:00",
+      "attempts": 15,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-04 03:00",
+      "attempts": 7,
+      "failed_attempts": 0
+    },
+    {
+      "bucket": "2025-01-04 04:00",
+      "attempts": 68,
+      "failed_attempts": 62
+    },
+    {
+      "bucket": "2025-01-04 05:00",
+      "attempts": 15,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-04 06:00",
+      "attempts": 8,
+      "failed_attempts": 2
+    },
+    {
+      "bucket": "2025-01-04 07:00",
+      "attempts": 47,
+      "failed_attempts": 35
+    },
+    {
+      "bucket": "2025-01-04 08:00",
+      "attempts": 72,
+      "failed_attempts": 63
+    }
+  ],
+  "peak_hour": {
+    "peak_hour_of_day": 13,
+    "peak_hour_of_day_attempts": 147,
+    "busiest_time_bucket": "2025-01-03 13:00",
+    "busiest_time_bucket_attempts": 95,
+    "hour_of_day_distribution": [
+      {
+        "hour": 0,
+        "attempts": 62
+      },
+      {
+        "hour": 1,
+        "attempts": 37
+      },
+      {
+        "hour": 2,
+        "attempts": 41
+      },
+      {
+        "hour": 3,
+        "attempts": 63
+      },
+      {
+        "hour": 4,
+        "attempts": 134
+      },
+      {
+        "hour": 5,
+        "attempts": 53
+      },
+      {
+        "hour": 6,
+        "attempts": 65
+      },
+      {
+        "hour": 7,
+        "attempts": 101
+      },
+      {
+        "hour": 8,
+        "attempts": 126
+      },
+      {
+        "hour": 9,
+        "attempts": 95
+      },
+      {
+        "hour": 10,
+        "attempts": 96
+      },
+      {
+        "hour": 11,
+        "attempts": 110
+      },
+      {
+        "hour": 12,
+        "attempts": 98
+      },
+      {
+        "hour": 13,
+        "attempts": 147
+      },
+      {
+        "hour": 14,
+        "attempts": 54
+      },
+      {
+        "hour": 15,
+        "attempts": 47
+      },
+      {
+        "hour": 16,
+        "attempts": 83
+      },
+      {
+        "hour": 17,
+        "attempts": 115
+      },
+      {
+        "hour": 18,
+        "attempts": 36
+      },
+      {
+        "hour": 19,
+        "attempts": 110
+      },
+      {
+        "hour": 20,
+        "attempts": 79
+      },
+      {
+        "hour": 21,
+        "attempts": 37
+      },
+      {
+        "hour": 22,
+        "attempts": 85
+      },
+      {
+        "hour": 23,
+        "attempts": 116
+      }
+    ]
+  },
+  "targeted_usernames": [
+    {
+      "username": "user137",
+      "attempts": 80,
+      "failed_attempts": 75
+    },
+    {
+      "username": "user86",
+      "attempts": 76,
+      "failed_attempts": 70
+    },
+    {
+      "username": "user131",
+      "attempts": 69,
+      "failed_attempts": 62
+    },
+    {
+      "username": "user115",
+      "attempts": 54,
+      "failed_attempts": 49
+    },
+    {
+      "username": "user81",
+      "attempts": 51,
+      "failed_attempts": 39
+    },
+    {
+      "username": "user88",
+      "attempts": 49,
+      "failed_attempts": 44
+    },
+    {
+      "username": "user102",
+      "attempts": 48,
+      "failed_attempts": 38
+    },
+    {
+      "username": "user21",
+      "attempts": 47,
+      "failed_attempts": 38
+    },
+    {
+      "username": "user82",
+      "attempts": 46,
+      "failed_attempts": 39
+    },
+    {
+      "username": "user13",
+      "attempts": 44,
+      "failed_attempts": 36
+    }
+  ],
+  "password_stats": {
+    "unique_passwords": 2,
+    "most_common_password": "guessed_pw",
+    "most_common_password_length": 10,
+    "top_passwords": [
+      {
+        "password": "guessed_pw",
+        "count": 1190
+      },
+      {
+        "password": "dummy_pw",
+        "count": 800
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# Member 5 - Threat Intelligence dependencies
+#
+# geoip2 is only needed to resolve REAL public IP addresses to countries.
+# The sample/demo data is all private IPs, so you can run and test
+# geoip_enrich.py WITHOUT this installed (it degrades gracefully). Install
+# it before doing the real public-IP geolocation step.
+geoip2==5.3.0
+
+# pandas is used by the threat report (file 2, threat_intel.py) for the
+# timeline / aggregation work. Added here so one install covers both files.
+pandas>=2.0.0
